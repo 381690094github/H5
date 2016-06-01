@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+
+}
+ul li{
+	list-style: none;
+}
+.top{
+    height: 30px;
+    background-color: #f6f6f6;
+}
+.topin{
+    color: #666;
+    margin: 0 auto;
+    font-size: 12px;
+    width: 1210px;
+    position: relative;
+}
+.topleft{
+    width: 80px;
+	height: 29px;
+	padding: 0 10px;
+	border: 1px solid #f6f6f6;
+	border-bottom: none;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	cursor: default;
+	position: absolute;
+}
+.topleft s{
+	display: inline-block;
+	width: 16px;
+	height: 8px;
+	line-height: 6px;
+	position: absolute;
+	top: 13px;
+	text-decoration: none;
+}
+.topleft:hover{
+	background-color: white;
+	border-color: #ddd;
+}
+.topleft:hover s{
+	transform:rotateZ(180deg);
+	top: 10px;
+	transition: linear .2s;
+}
+.coverCity{
+	width: 100px;
+	height: 3px;
+	position: absolute;
+	top: -2px;
+	background-color: #fff;
+	display: none;
+}
+.topleft:hover .coverCity{
+	display: block;
+}
+.changeCity{
+	width: 300px;
+	position: absolute;
+	top: 29px;
+	left: -1px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	z-index: 5;
+	display: none;
+}
+.topleft:hover .changeCity{
+	display: block;
+}
+.changeCity ul{
+	padding-top: 10px;
+}
+.changeCity li{
+	float: left;
+	width: 50px;
+	height: 30px;
+}
+.changeCity li a{
+	color: #666;
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	padding: 2px 0px;
+	width: 36px;
+	margin: 0px 7px;
+}
+.topin a:hover{color: #C81623}
+.topright{
+	width: 900px;
+	text-align: right;
+	float: right;
+}
+.topright ul{
+	float: right;
+}
+.topright ul li{
+	line-height: 30px;
+	margin: 0px 5px;
+	padding: 0px 3px;
+	float: left;
+	position: relative;
+}
+.topright li a{
+    color: #666;
+}
+.topright li s{
+	display: inline-block;
+	width: 16px;
+	height: 8px;
+	line-height: 6px;
+	padding-right: 5px;
+	position: absolute;
+	top: 13px;
+	text-decoration: none;
+}
+
+.topright ul li:hover s{
+	transform:rotateZ(180deg);
+	top: 10px;
+	transition: linear .2s;
+}
+.bigAd{
+	height: 120px;
+	background-color: #EB2717;
+}
+.ad{
+	margin: 0 auto;
+	width: 1210px;
+	position: relative;
+}
+.close_ad{
+	width: 16px;
+	height: 16px;
+	color: #fff;
+	background: rgba(0,0,0,0.2); 
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
